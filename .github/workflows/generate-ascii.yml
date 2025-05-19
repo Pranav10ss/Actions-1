@@ -11,7 +11,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Install Cowsay program
-      run: sudo apt -get install cowsay -y
+      run: sudo apt-get install cowsay -y
 
     - name: Execute cowsay cmd
       run: cowsay -f dragon "Run for cover, I am DRAGON...RAWR" >> dragon.txt
