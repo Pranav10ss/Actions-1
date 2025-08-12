@@ -48,7 +48,7 @@ So, setting the threshold to about 45% to trigger the alarm when the average CPU
 Lets assume that the we want to get alerted when redis-engine thread hits 90% CPU usage. Lets also assume a baseline threshold for the second CPU thread as 10%. 
 
 $$
-\text{Proposed Threshold} = \frac{90\% + 10\%}{2} = 50\% 
+\text{Proposed Threshold} = \frac{90\% \,+\, 10\%}{2} = 50\% 
 $$
 
 $$
